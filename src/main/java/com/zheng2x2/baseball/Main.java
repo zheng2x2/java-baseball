@@ -7,5 +7,12 @@ public class Main {
         GenerateNumber genNum = new GenerateNumber();
         String answer = genNum.getThreeNumbers();
 
+        ProceedGame game = new ProceedGame();
+        String response = game.startGame();
+
+
+
+
+
     }
 }
