@@ -8,7 +8,7 @@ public class Main {
         String answer = genNum.getThreeNumbers();
 
         ProceedGame game = new ProceedGame();
-        String response = game.startGame();
+        String inputVal = game.readInputVal();
 
 
 
